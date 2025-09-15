@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+   <!-- Favicon emoji -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💎</text></svg>">
   <meta property="og:title" content="Para mi princesa IVL 💎" />
   <meta property="og:description" content="Un rincón solo nuestro. Ábrelo con el pequeño secreto. 💌" />
   <meta property="og:type" content="website" />
@@ -309,7 +311,7 @@ Tu rastudito fastidioso, intenso y empalagoso 🦥`;
         if (i < LETTER_TEXT.length){
           letterBox.textContent += LETTER_TEXT.charAt(i++);
           if (messageEl) messageEl.scrollTop = messageEl.scrollHeight;
-          typingTimer = setTimeout(step, 40);
+          typingTimer = setTimeout(step, 60);
         } else {
           letterBox.classList.remove('typing');
           if (inlinePic.classList.contains('hidden')){
